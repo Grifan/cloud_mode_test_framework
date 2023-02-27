@@ -1,0 +1,10 @@
+[flake8]
+max-line-length = 125
+per-file-ignores =
+   utils/browser/expected_conditions/__init__.py:F401,F403
+exclude =
+    .git,
+    __pycache__,
+    .pytest_cache,
+    ENV
+max-complexity = 10
