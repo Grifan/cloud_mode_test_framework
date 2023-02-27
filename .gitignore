@@ -1,0 +1,26 @@
+__pycache__
+# Byte-compiled / optimized / DLL files
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+logs/
+screenshot_on_fail/
+allure_results/
+./.idea/
+
+
+# dotenv
+.env
+.venv
+
+# virtualenv
+env/
+venv/
+ENV/
+
+# idea
+.idea/
+
